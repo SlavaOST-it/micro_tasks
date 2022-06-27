@@ -16,8 +16,8 @@ const Task02 = () => {
 
     return (
         <div className="App">
-            <Button name={"YouTubeChenel-1"} callBack={()=>Button1Foo("Im Vasya", 21)}/>
-            <Button name={"YouTubeChenel-2"} callBack={()=>Button2Foo("Im Ivan")}/>
+            <Button name={"YouTubeChanel-1"} callBack={()=>Button1Foo("Im Vasya", 21)}/>
+            <Button name={"YouTubeChanel-2"} callBack={()=>Button2Foo("Im Ivan")}/>
             <Button name={"Im stupid button"} callBack={Button3Foo}/>
         </div>
     );
